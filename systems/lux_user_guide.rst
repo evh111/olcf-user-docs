@@ -2917,6 +2917,12 @@ Kubernetes on Lux is administered through Rancher. You can access the `dashboard
    We will be referencing the `olcf_kubernetes_examples repository <https://github.com/olcf/olcf_kubernetes_examples>`__ throughout this page. Make
    sure you have that repository cloned on your laptop and workstation so you can reference it.
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   lux_kubernetes/deploy_mysql
+
 
 .. _navigating-to-rancher-dashboard:
 
@@ -2974,6 +2980,8 @@ After all the above is set up
 
 
 
+
+.. _lux-kube-using-kubectl:
 
 Using kubectl
 =============
@@ -3566,6 +3574,8 @@ Run Policy
     |node_count_note|
 
 
+.. _lux-kube-storage:
+
 Storage
 =======
 
@@ -3739,6 +3749,8 @@ with ``kubectl get pvc``.
 
 Accessing your Application
 ==========================
+
+.. _lux-kube-httproutes:
 
 HTTPRoutes for Accessing your App via the Browser
 -------------------------------------------------
